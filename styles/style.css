@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    gap: 15px;
+    height: 100%;
+    background-color: white;
+}
+
+.item1 {
+    display: grid;
+    grid-row: 1 / 2;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.item2 {
+    grid-row: 2 / 3;
+    background-color: #55A630;
+}
+
+.item3 {
+    grid-column: 1 / 2;
+    background-color: #007F5F;
+}
+
+.item4 {
+    grid-column: 2 / 3;
+    background-color: #80B918;
+}
+
+.item5 {
+    grid-column: 3 / 4;
+    background-color: #DDDF00;
+}
