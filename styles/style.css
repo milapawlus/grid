@@ -19,8 +19,11 @@ body {
 }
 
 .item2 {
+    display: grid;
     grid-row: 2 / 3;
-    background-color: #55A630;
+    background-color: white;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    gap: 15px;
 }
 
 .item3 {
@@ -67,4 +70,24 @@ body {
 .item10 {
     grid-row: 3 / span 1;
     background-color: #FFFF3F;
+}
+
+.item11 {
+    grid-column: 1 / 2;
+    background-color: #55A630;
+}
+
+.item12 {
+    grid-column: 2 / 3;
+    background-color: #AACC00;
+}
+
+.item13 {
+    grid-column: 3 / 4;
+    background-color: #D4D700;
+}
+
+.item14 {
+    grid-column: span 1 / 5;
+    background-color: #007F5F;
 }
