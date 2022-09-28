@@ -1,7 +1,13 @@
 body {
     background-color: white;
     height: 100vh;
-    margin: 15px;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    height: 100%;
+    gap: 30px;
 }
 
 .grid-container {
@@ -99,4 +105,22 @@ body {
 .item16 {
     grid-row: span 1 / 3;
     background-color: #BFD200;
+}
+
+.heading {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: #9BC1BC;
+}
+
+.item17 {
+    display: grid;
+    grid-row: 1 / 2;
+    align-content: center;
+    background-color: #9BC1BC;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
